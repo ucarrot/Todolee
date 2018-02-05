@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="nhM-aR-8Xc" id="LqZ-bZ-foP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CamelTube" id="ZB8-r6-fhR"/>
+                    <navigationItem key="navigationItem" title="CamelTube" id="ZB8-r6-fhR">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="HkZ-0y-eDE">
+                            <color key="tintColor" red="1" green="0.50311123061634699" blue="0.069015869729625812" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="nhM-aR-8Xc" id="rj4-ae-ePZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaH-jA-0X2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
